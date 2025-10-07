@@ -1,4 +1,3 @@
-// Dark mode toggle
 const themeToggle = document.getElementById('theme-toggle');
 const body = document.body;
 
@@ -42,7 +41,6 @@ themeToggle.addEventListener('click', () => {
     }
 });
 
-// Scroll animations
 document.addEventListener('DOMContentLoaded', function() {
     const sections = document.querySelectorAll('section');
 
@@ -82,4 +80,5 @@ function DarkMode(){
         skill.classList.toggle('dark-mode');
     });
     
+
 }
